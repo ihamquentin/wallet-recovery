@@ -25,14 +25,14 @@ seed_words = ['velvet',
 'finger',
 'opera',
 'strong',
-'shock',
-'throw',
+'shoot',
+'plate',
 'major',
 'hurt',
-'salon',
-'okay',
+'cat',
+'play',
 'tide',
-'fold']
+'disk']
 password = '12345678'
 count = 1 #starts at 1, input 'n' to start at 'n'th permutation
 #EDITABLE ^^^
