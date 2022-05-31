@@ -7,8 +7,8 @@ import time
 import functions as mf #this file 'functions.py' is in the same folder. it is required for this program to run
 #!!!
 
-EXTENSION_PATH = '/Users/c1oud4o4/Library/Application Support/Google/Chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/10.14.1_0.crx'  #enter the path to the metamask .crx file here
-mm_extension_id = "nkbihfbeogaeaoehlefnkodbefgpgknn" #enter your metamask extension id here
+EXTENSION_PATH = ''  #enter the path to the metamask .crx file here
+mm_extension_id = "" #enter your metamask extension id here
 opt = webdriver.ChromeOptions()
 opt.add_extension(EXTENSION_PATH)
 driver = webdriver.Chrome(options=opt)
