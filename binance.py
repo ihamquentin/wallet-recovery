@@ -8,15 +8,15 @@ import functions as mf #this file 'functions.py' is in the same folder. it is re
 #!!!
 
 
-EXTENSION_PATH =  '/Users/c1oud4o4/Library/Application Support/Google/Chrome/Default/Extensions/fhbohimaelbohpjbbldcngcnapndodjp/2.13.0_0.crx'  #enter the path to the metamask .crx file here
-mm_extension_id = "fhbohimaelbohpjbbldcngcnapndodjp" #enter your binance extension id here
+EXTENSION_PATH =  ''  #enter the path to the binance extention .crx file here
+mm_extension_id = "" #enter your binance extension id here
 opt = webdriver.ChromeOptions()
 opt.add_extension(EXTENSION_PATH)
 driver = webdriver.Chrome(options=opt)
 
 #driver.switch_to.window(driver.window_handles) #switch to first window
 #driver.get('chrome-extension://'+mm_extension_id)
-#chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/home.html#/en/setup/recover
+
 driver.get('chrome-extension://'+mm_extension_id+'/home.html#/en/setup/recover') #go to seed phrase page
 time.sleep(1)
 #driver.find_element(by = By.XPATH, value= '//*[@id="import-srp__srp-word-0"]') #select textbox
